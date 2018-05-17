@@ -8,6 +8,9 @@ $TTL 300
                        60 )      ; negative caching ttl 1 minute
 		IN NS   LOCALHOST.
 
+bing.com	IN CNAME	strict.bing.com.
+*.bing.com	IN CNAME	strict.bing.com.
+
 google.com	IN CNAME	forcesafesearch.google.com.
 *.google.com	IN CNAME	forcesafesearch.google.com.
 google.ad	IN CNAME	forcesafesearch.google.com.
