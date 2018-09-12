@@ -1,399 +1,211 @@
-$TTL 300
+rpz.				      300 IN SOA	localhost. need.to.know.only. (
+							2018091109
+							60
+							60
+							432000
+							60)
+				      10800 IN NS	LOCALHOST.
 
-@		IN SOA  localhost. need.to.know.only. (
-                       201702121 ; Serial number
-                       60        ; Refresh every minute
-                       60        ; Retry every minute
-                       432000    ; Expire in 5 days
-                       60 )      ; negative caching ttl 1 minute
-		IN NS   LOCALHOST.
 
-bing.com	IN CNAME	strict.bing.com.
-*.bing.com	IN CNAME	strict.bing.com.
+bing.com.rpz.                         10800 IN CNAME    strict.bing.com.
+*.bing.com.rpz.                       10800 IN CNAME    strict.bing.com.
 
-google.com	IN CNAME	forcesafesearch.google.com.
-*.google.com	IN CNAME	forcesafesearch.google.com.
-google.ad	IN CNAME	forcesafesearch.google.com.
-*.google.ad	IN CNAME	forcesafesearch.google.com.
-google.ae	IN CNAME	forcesafesearch.google.com.
-*.google.ae	IN CNAME	forcesafesearch.google.com.
-google.com.af	IN CNAME	forcesafesearch.google.com.
-*.google.com.af	IN CNAME	forcesafesearch.google.com.
-google.com.ag	IN CNAME	forcesafesearch.google.com.
-*.google.com.ag	IN CNAME	forcesafesearch.google.com.
-google.com.ai	IN CNAME	forcesafesearch.google.com.
-*.google.com.ai	IN CNAME	forcesafesearch.google.com.
-google.al	IN CNAME	forcesafesearch.google.com.
-*.google.al	IN CNAME	forcesafesearch.google.com.
-google.am	IN CNAME	forcesafesearch.google.com.
-*.google.am	IN CNAME	forcesafesearch.google.com.
-google.co.ao	IN CNAME	forcesafesearch.google.com.
-*.google.co.ao	IN CNAME	forcesafesearch.google.com.
-google.com.ar	IN CNAME	forcesafesearch.google.com.
-*.google.com.ar	IN CNAME	forcesafesearch.google.com.
-google.as	IN CNAME	forcesafesearch.google.com.
-*.google.as	IN CNAME	forcesafesearch.google.com.
-google.at	IN CNAME	forcesafesearch.google.com.
-*.google.at	IN CNAME	forcesafesearch.google.com.
-google.com.au	IN CNAME	forcesafesearch.google.com.
-*.google.com.au	IN CNAME	forcesafesearch.google.com.
-google.az	IN CNAME	forcesafesearch.google.com.
-*.google.az	IN CNAME	forcesafesearch.google.com.
-google.ba	IN CNAME	forcesafesearch.google.com.
-*.google.ba	IN CNAME	forcesafesearch.google.com.
-google.com.bd	IN CNAME	forcesafesearch.google.com.
-*.google.com.bd	IN CNAME	forcesafesearch.google.com.
-google.be	IN CNAME	forcesafesearch.google.com.
-*.google.be	IN CNAME	forcesafesearch.google.com.
-google.bf	IN CNAME	forcesafesearch.google.com.
-*.google.bf	IN CNAME	forcesafesearch.google.com.
-google.bg	IN CNAME	forcesafesearch.google.com.
-*.google.bg	IN CNAME	forcesafesearch.google.com.
-google.com.bh	IN CNAME	forcesafesearch.google.com.
-*.google.com.bh	IN CNAME	forcesafesearch.google.com.
-google.bi	IN CNAME	forcesafesearch.google.com.
-*.google.bi	IN CNAME	forcesafesearch.google.com.
-google.bj	IN CNAME	forcesafesearch.google.com.
-*.google.bj	IN CNAME	forcesafesearch.google.com.
-google.com.bn	IN CNAME	forcesafesearch.google.com.
-*.google.com.bn	IN CNAME	forcesafesearch.google.com.
-google.com.bo	IN CNAME	forcesafesearch.google.com.
-*.google.com.bo	IN CNAME	forcesafesearch.google.com.
-google.com.br	IN CNAME	forcesafesearch.google.com.
-*.google.com.br	IN CNAME	forcesafesearch.google.com.
-google.bs	IN CNAME	forcesafesearch.google.com.
-*.google.bs	IN CNAME	forcesafesearch.google.com.
-google.bt	IN CNAME	forcesafesearch.google.com.
-*.google.bt	IN CNAME	forcesafesearch.google.com.
-google.co.bw	IN CNAME	forcesafesearch.google.com.
-*.google.co.bw	IN CNAME	forcesafesearch.google.com.
-google.by	IN CNAME	forcesafesearch.google.com.
-*.google.by	IN CNAME	forcesafesearch.google.com.
-google.com.bz	IN CNAME	forcesafesearch.google.com.
-*.google.com.bz	IN CNAME	forcesafesearch.google.com.
-google.ca	IN CNAME	forcesafesearch.google.com.
-*.google.ca	IN CNAME	forcesafesearch.google.com.
-google.cd	IN CNAME	forcesafesearch.google.com.
-*.google.cd	IN CNAME	forcesafesearch.google.com.
-google.cf	IN CNAME	forcesafesearch.google.com.
-*.google.cf	IN CNAME	forcesafesearch.google.com.
-google.cg	IN CNAME	forcesafesearch.google.com.
-*.google.cg	IN CNAME	forcesafesearch.google.com.
-google.ch	IN CNAME	forcesafesearch.google.com.
-*.google.ch	IN CNAME	forcesafesearch.google.com.
-google.ci	IN CNAME	forcesafesearch.google.com.
-*.google.ci	IN CNAME	forcesafesearch.google.com.
-google.co.ck	IN CNAME	forcesafesearch.google.com.
-*.google.co.ck	IN CNAME	forcesafesearch.google.com.
-google.cl	IN CNAME	forcesafesearch.google.com.
-*.google.cl	IN CNAME	forcesafesearch.google.com.
-google.cm	IN CNAME	forcesafesearch.google.com.
-*.google.cm	IN CNAME	forcesafesearch.google.com.
-google.cn	IN CNAME	forcesafesearch.google.com.
-*.google.cn	IN CNAME	forcesafesearch.google.com.
-google.com.co	IN CNAME	forcesafesearch.google.com.
-*.google.com.co	IN CNAME	forcesafesearch.google.com.
-google.co.cr	IN CNAME	forcesafesearch.google.com.
-*.google.co.cr	IN CNAME	forcesafesearch.google.com.
-google.com.cu	IN CNAME	forcesafesearch.google.com.
-*.google.com.cu	IN CNAME	forcesafesearch.google.com.
-google.cv	IN CNAME	forcesafesearch.google.com.
-*.google.cv	IN CNAME	forcesafesearch.google.com.
-google.com.cy	IN CNAME	forcesafesearch.google.com.
-*.google.com.cy	IN CNAME	forcesafesearch.google.com.
-google.cz	IN CNAME	forcesafesearch.google.com.
-*.google.cz	IN CNAME	forcesafesearch.google.com.
-google.de	IN CNAME	forcesafesearch.google.com.
-*.google.de	IN CNAME	forcesafesearch.google.com.
-google.dj	IN CNAME	forcesafesearch.google.com.
-*.google.dj	IN CNAME	forcesafesearch.google.com.
-google.dk	IN CNAME	forcesafesearch.google.com.
-*.google.dk	IN CNAME	forcesafesearch.google.com.
-google.dm	IN CNAME	forcesafesearch.google.com.
-*.google.dm	IN CNAME	forcesafesearch.google.com.
-google.com.do	IN CNAME	forcesafesearch.google.com.
-*.google.com.do	IN CNAME	forcesafesearch.google.com.
-google.dz	IN CNAME	forcesafesearch.google.com.
-*.google.dz	IN CNAME	forcesafesearch.google.com.
-google.com.ec	IN CNAME	forcesafesearch.google.com.
-*.google.com.ec	IN CNAME	forcesafesearch.google.com.
-google.ee	IN CNAME	forcesafesearch.google.com.
-*.google.ee	IN CNAME	forcesafesearch.google.com.
-google.com.eg	IN CNAME	forcesafesearch.google.com.
-*.google.com.eg	IN CNAME	forcesafesearch.google.com.
-google.es	IN CNAME	forcesafesearch.google.com.
-*.google.es	IN CNAME	forcesafesearch.google.com.
-google.com.et	IN CNAME	forcesafesearch.google.com.
-*.google.com.et	IN CNAME	forcesafesearch.google.com.
-google.fi	IN CNAME	forcesafesearch.google.com.
-*.google.fi	IN CNAME	forcesafesearch.google.com.
-google.com.fj	IN CNAME	forcesafesearch.google.com.
-*.google.com.fj	IN CNAME	forcesafesearch.google.com.
-google.fm	IN CNAME	forcesafesearch.google.com.
-*.google.fm	IN CNAME	forcesafesearch.google.com.
-google.fr	IN CNAME	forcesafesearch.google.com.
-*.google.fr	IN CNAME	forcesafesearch.google.com.
-google.ga	IN CNAME	forcesafesearch.google.com.
-*.google.ga	IN CNAME	forcesafesearch.google.com.
-google.ge	IN CNAME	forcesafesearch.google.com.
-*.google.ge	IN CNAME	forcesafesearch.google.com.
-google.gg	IN CNAME	forcesafesearch.google.com.
-*.google.gg	IN CNAME	forcesafesearch.google.com.
-google.com.gh	IN CNAME	forcesafesearch.google.com.
-*.google.com.gh	IN CNAME	forcesafesearch.google.com.
-google.com.gi	IN CNAME	forcesafesearch.google.com.
-*.google.com.gi	IN CNAME	forcesafesearch.google.com.
-google.gl	IN CNAME	forcesafesearch.google.com.
-*.google.gl	IN CNAME	forcesafesearch.google.com.
-google.gm	IN CNAME	forcesafesearch.google.com.
-*.google.gm	IN CNAME	forcesafesearch.google.com.
-google.gp	IN CNAME	forcesafesearch.google.com.
-*.google.gp	IN CNAME	forcesafesearch.google.com.
-google.gr	IN CNAME	forcesafesearch.google.com.
-*.google.gr	IN CNAME	forcesafesearch.google.com.
-google.com.gt	IN CNAME	forcesafesearch.google.com.
-*.google.com.gt	IN CNAME	forcesafesearch.google.com.
-google.gy	IN CNAME	forcesafesearch.google.com.
-*.google.gy	IN CNAME	forcesafesearch.google.com.
-google.com.hk	IN CNAME	forcesafesearch.google.com.
-*.google.com.hk	IN CNAME	forcesafesearch.google.com.
-google.hn	IN CNAME	forcesafesearch.google.com.
-*.google.hn	IN CNAME	forcesafesearch.google.com.
-google.hr	IN CNAME	forcesafesearch.google.com.
-*.google.hr	IN CNAME	forcesafesearch.google.com.
-google.ht	IN CNAME	forcesafesearch.google.com.
-*.google.ht	IN CNAME	forcesafesearch.google.com.
-google.hu	IN CNAME	forcesafesearch.google.com.
-*.google.hu	IN CNAME	forcesafesearch.google.com.
-google.co.id	IN CNAME	forcesafesearch.google.com.
-*.google.co.id	IN CNAME	forcesafesearch.google.com.
-google.ie	IN CNAME	forcesafesearch.google.com.
-*.google.ie	IN CNAME	forcesafesearch.google.com.
-google.co.il	IN CNAME	forcesafesearch.google.com.
-*.google.co.il	IN CNAME	forcesafesearch.google.com.
-google.im	IN CNAME	forcesafesearch.google.com.
-*.google.im	IN CNAME	forcesafesearch.google.com.
-google.co.in	IN CNAME	forcesafesearch.google.com.
-*.google.co.in	IN CNAME	forcesafesearch.google.com.
-google.iq	IN CNAME	forcesafesearch.google.com.
-*.google.iq	IN CNAME	forcesafesearch.google.com.
-google.is	IN CNAME	forcesafesearch.google.com.
-*.google.is	IN CNAME	forcesafesearch.google.com.
-google.it	IN CNAME	forcesafesearch.google.com.
-*.google.it	IN CNAME	forcesafesearch.google.com.
-google.je	IN CNAME	forcesafesearch.google.com.
-*.google.je	IN CNAME	forcesafesearch.google.com.
-google.com.jm	IN CNAME	forcesafesearch.google.com.
-*.google.com.jm	IN CNAME	forcesafesearch.google.com.
-google.jo	IN CNAME	forcesafesearch.google.com.
-*.google.jo	IN CNAME	forcesafesearch.google.com.
-google.co.jp	IN CNAME	forcesafesearch.google.com.
-*.google.co.jp	IN CNAME	forcesafesearch.google.com.
-google.co.ke	IN CNAME	forcesafesearch.google.com.
-*.google.co.ke	IN CNAME	forcesafesearch.google.com.
-google.com.kh	IN CNAME	forcesafesearch.google.com.
-*.google.com.kh	IN CNAME	forcesafesearch.google.com.
-google.ki	IN CNAME	forcesafesearch.google.com.
-*.google.ki	IN CNAME	forcesafesearch.google.com.
-google.kg	IN CNAME	forcesafesearch.google.com.
-*.google.kg	IN CNAME	forcesafesearch.google.com.
-google.co.kr	IN CNAME	forcesafesearch.google.com.
-*.google.co.kr	IN CNAME	forcesafesearch.google.com.
-google.com.kw	IN CNAME	forcesafesearch.google.com.
-*.google.com.kw	IN CNAME	forcesafesearch.google.com.
-google.kz	IN CNAME	forcesafesearch.google.com.
-*.google.kz	IN CNAME	forcesafesearch.google.com.
-google.la	IN CNAME	forcesafesearch.google.com.
-*.google.la	IN CNAME	forcesafesearch.google.com.
-google.com.lb	IN CNAME	forcesafesearch.google.com.
-*.google.com.lb	IN CNAME	forcesafesearch.google.com.
-google.li	IN CNAME	forcesafesearch.google.com.
-*.google.li	IN CNAME	forcesafesearch.google.com.
-google.lk	IN CNAME	forcesafesearch.google.com.
-*.google.lk	IN CNAME	forcesafesearch.google.com.
-google.co.ls	IN CNAME	forcesafesearch.google.com.
-*.google.co.ls	IN CNAME	forcesafesearch.google.com.
-google.lt	IN CNAME	forcesafesearch.google.com.
-*.google.lt	IN CNAME	forcesafesearch.google.com.
-google.lu	IN CNAME	forcesafesearch.google.com.
-*.google.lu	IN CNAME	forcesafesearch.google.com.
-google.lv	IN CNAME	forcesafesearch.google.com.
-*.google.lv	IN CNAME	forcesafesearch.google.com.
-google.com.ly	IN CNAME	forcesafesearch.google.com.
-*.google.com.ly	IN CNAME	forcesafesearch.google.com.
-google.co.ma	IN CNAME	forcesafesearch.google.com.
-*.google.co.ma	IN CNAME	forcesafesearch.google.com.
-google.md	IN CNAME	forcesafesearch.google.com.
-*.google.md	IN CNAME	forcesafesearch.google.com.
-google.me	IN CNAME	forcesafesearch.google.com.
-*.google.me	IN CNAME	forcesafesearch.google.com.
-google.mg	IN CNAME	forcesafesearch.google.com.
-*.google.mg	IN CNAME	forcesafesearch.google.com.
-google.mk	IN CNAME	forcesafesearch.google.com.
-*.google.mk	IN CNAME	forcesafesearch.google.com.
-google.ml	IN CNAME	forcesafesearch.google.com.
-*.google.ml	IN CNAME	forcesafesearch.google.com.
-google.com.mm	IN CNAME	forcesafesearch.google.com.
-*.google.com.mm	IN CNAME	forcesafesearch.google.com.
-google.mn	IN CNAME	forcesafesearch.google.com.
-*.google.mn	IN CNAME	forcesafesearch.google.com.
-google.ms	IN CNAME	forcesafesearch.google.com.
-*.google.ms	IN CNAME	forcesafesearch.google.com.
-google.com.mt	IN CNAME	forcesafesearch.google.com.
-*.google.com.mt	IN CNAME	forcesafesearch.google.com.
-google.mu	IN CNAME	forcesafesearch.google.com.
-*.google.mu	IN CNAME	forcesafesearch.google.com.
-google.mv	IN CNAME	forcesafesearch.google.com.
-*.google.mv	IN CNAME	forcesafesearch.google.com.
-google.mw	IN CNAME	forcesafesearch.google.com.
-*.google.mw	IN CNAME	forcesafesearch.google.com.
-google.com.mx	IN CNAME	forcesafesearch.google.com.
-*.google.com.mx	IN CNAME	forcesafesearch.google.com.
-google.com.my	IN CNAME	forcesafesearch.google.com.
-*.google.com.my	IN CNAME	forcesafesearch.google.com.
-google.co.mz	IN CNAME	forcesafesearch.google.com.
-*.google.co.mz	IN CNAME	forcesafesearch.google.com.
-google.com.na	IN CNAME	forcesafesearch.google.com.
-*.google.com.na	IN CNAME	forcesafesearch.google.com.
-google.com.nf	IN CNAME	forcesafesearch.google.com.
-*.google.com.nf	IN CNAME	forcesafesearch.google.com.
-google.com.ng	IN CNAME	forcesafesearch.google.com.
-*.google.com.ng	IN CNAME	forcesafesearch.google.com.
-google.com.ni	IN CNAME	forcesafesearch.google.com.
-*.google.com.ni	IN CNAME	forcesafesearch.google.com.
-google.ne	IN CNAME	forcesafesearch.google.com.
-*.google.ne	IN CNAME	forcesafesearch.google.com.
-google.nl	IN CNAME	forcesafesearch.google.com.
-*.google.nl	IN CNAME	forcesafesearch.google.com.
-google.no	IN CNAME	forcesafesearch.google.com.
-*.google.no	IN CNAME	forcesafesearch.google.com.
-google.com.np	IN CNAME	forcesafesearch.google.com.
-*.google.com.np	IN CNAME	forcesafesearch.google.com.
-google.nr	IN CNAME	forcesafesearch.google.com.
-*.google.nr	IN CNAME	forcesafesearch.google.com.
-google.nu	IN CNAME	forcesafesearch.google.com.
-*.google.nu	IN CNAME	forcesafesearch.google.com.
-google.co.nz	IN CNAME	forcesafesearch.google.com.
-*.google.co.nz	IN CNAME	forcesafesearch.google.com.
-google.com.om	IN CNAME	forcesafesearch.google.com.
-*.google.com.om	IN CNAME	forcesafesearch.google.com.
-google.com.pa	IN CNAME	forcesafesearch.google.com.
-*.google.com.pa	IN CNAME	forcesafesearch.google.com.
-google.com.pe	IN CNAME	forcesafesearch.google.com.
-*.google.com.pe	IN CNAME	forcesafesearch.google.com.
-google.com.pg	IN CNAME	forcesafesearch.google.com.
-*.google.com.pg	IN CNAME	forcesafesearch.google.com.
-google.com.ph	IN CNAME	forcesafesearch.google.com.
-*.google.com.ph	IN CNAME	forcesafesearch.google.com.
-google.com.pk	IN CNAME	forcesafesearch.google.com.
-*.google.com.pk	IN CNAME	forcesafesearch.google.com.
-google.pl	IN CNAME	forcesafesearch.google.com.
-*.google.pl	IN CNAME	forcesafesearch.google.com.
-google.pn	IN CNAME	forcesafesearch.google.com.
-*.google.pn	IN CNAME	forcesafesearch.google.com.
-google.com.pr	IN CNAME	forcesafesearch.google.com.
-*.google.com.pr	IN CNAME	forcesafesearch.google.com.
-google.ps	IN CNAME	forcesafesearch.google.com.
-*.google.ps	IN CNAME	forcesafesearch.google.com.
-google.pt	IN CNAME	forcesafesearch.google.com.
-*.google.pt	IN CNAME	forcesafesearch.google.com.
-google.com.py	IN CNAME	forcesafesearch.google.com.
-*.google.com.py	IN CNAME	forcesafesearch.google.com.
-google.com.qa	IN CNAME	forcesafesearch.google.com.
-*.google.com.qa	IN CNAME	forcesafesearch.google.com.
-google.ro	IN CNAME	forcesafesearch.google.com.
-*.google.ro	IN CNAME	forcesafesearch.google.com.
-google.ru	IN CNAME	forcesafesearch.google.com.
-*.google.ru	IN CNAME	forcesafesearch.google.com.
-google.rw	IN CNAME	forcesafesearch.google.com.
-*.google.rw	IN CNAME	forcesafesearch.google.com.
-google.com.sa	IN CNAME	forcesafesearch.google.com.
-*.google.com.sa	IN CNAME	forcesafesearch.google.com.
-google.com.sb	IN CNAME	forcesafesearch.google.com.
-*.google.com.sb	IN CNAME	forcesafesearch.google.com.
-google.sc	IN CNAME	forcesafesearch.google.com.
-*.google.sc	IN CNAME	forcesafesearch.google.com.
-google.se	IN CNAME	forcesafesearch.google.com.
-*.google.se	IN CNAME	forcesafesearch.google.com.
-google.com.sg	IN CNAME	forcesafesearch.google.com.
-*.google.com.sg	IN CNAME	forcesafesearch.google.com.
-google.sh	IN CNAME	forcesafesearch.google.com.
-*.google.sh	IN CNAME	forcesafesearch.google.com.
-google.si	IN CNAME	forcesafesearch.google.com.
-*.google.si	IN CNAME	forcesafesearch.google.com.
-google.sk	IN CNAME	forcesafesearch.google.com.
-*.google.sk	IN CNAME	forcesafesearch.google.com.
-google.com.sl	IN CNAME	forcesafesearch.google.com.
-*.google.com.sl	IN CNAME	forcesafesearch.google.com.
-google.sn	IN CNAME	forcesafesearch.google.com.
-*.google.sn	IN CNAME	forcesafesearch.google.com.
-google.so	IN CNAME	forcesafesearch.google.com.
-*.google.so	IN CNAME	forcesafesearch.google.com.
-google.sm	IN CNAME	forcesafesearch.google.com.
-*.google.sm	IN CNAME	forcesafesearch.google.com.
-google.sr	IN CNAME	forcesafesearch.google.com.
-*.google.sr	IN CNAME	forcesafesearch.google.com.
-google.st	IN CNAME	forcesafesearch.google.com.
-*.google.st	IN CNAME	forcesafesearch.google.com.
-google.com.sv	IN CNAME	forcesafesearch.google.com.
-*.google.com.sv	IN CNAME	forcesafesearch.google.com.
-google.td	IN CNAME	forcesafesearch.google.com.
-*.google.td	IN CNAME	forcesafesearch.google.com.
-google.tg	IN CNAME	forcesafesearch.google.com.
-*.google.tg	IN CNAME	forcesafesearch.google.com.
-google.co.th	IN CNAME	forcesafesearch.google.com.
-*.google.co.th	IN CNAME	forcesafesearch.google.com.
-google.com.tj	IN CNAME	forcesafesearch.google.com.
-*.google.com.tj	IN CNAME	forcesafesearch.google.com.
-google.tk	IN CNAME	forcesafesearch.google.com.
-*.google.tk	IN CNAME	forcesafesearch.google.com.
-google.tl	IN CNAME	forcesafesearch.google.com.
-*.google.tl	IN CNAME	forcesafesearch.google.com.
-google.tm	IN CNAME	forcesafesearch.google.com.
-*.google.tm	IN CNAME	forcesafesearch.google.com.
-google.tn	IN CNAME	forcesafesearch.google.com.
-*.google.tn	IN CNAME	forcesafesearch.google.com.
-google.to	IN CNAME	forcesafesearch.google.com.
-*.google.to	IN CNAME	forcesafesearch.google.com.
-google.com.tr	IN CNAME	forcesafesearch.google.com.
-*.google.com.tr	IN CNAME	forcesafesearch.google.com.
-google.tt	IN CNAME	forcesafesearch.google.com.
-*.google.tt	IN CNAME	forcesafesearch.google.com.
-google.com.tw	IN CNAME	forcesafesearch.google.com.
-*.google.com.tw	IN CNAME	forcesafesearch.google.com.
-google.co.tz	IN CNAME	forcesafesearch.google.com.
-*.google.co.tz	IN CNAME	forcesafesearch.google.com.
-google.com.ua	IN CNAME	forcesafesearch.google.com.
-*.google.com.ua	IN CNAME	forcesafesearch.google.com.
-google.co.ug	IN CNAME	forcesafesearch.google.com.
-*.google.co.ug	IN CNAME	forcesafesearch.google.com.
-google.co.uk	IN CNAME	forcesafesearch.google.com.
-*.google.co.uk	IN CNAME	forcesafesearch.google.com.
-google.com.uy	IN CNAME	forcesafesearch.google.com.
-*.google.com.uy	IN CNAME	forcesafesearch.google.com.
-google.co.uz	IN CNAME	forcesafesearch.google.com.
-*.google.co.uz	IN CNAME	forcesafesearch.google.com.
-google.com.vc	IN CNAME	forcesafesearch.google.com.
-*.google.com.vc	IN CNAME	forcesafesearch.google.com.
-google.co.ve	IN CNAME	forcesafesearch.google.com.
-*.google.co.ve	IN CNAME	forcesafesearch.google.com.
-google.vg	IN CNAME	forcesafesearch.google.com.
-*.google.vg	IN CNAME	forcesafesearch.google.com.
-google.co.vi	IN CNAME	forcesafesearch.google.com.
-*.google.co.vi	IN CNAME	forcesafesearch.google.com.
-google.com.vn	IN CNAME	forcesafesearch.google.com.
-*.google.com.vn	IN CNAME	forcesafesearch.google.com.
-google.vu	IN CNAME	forcesafesearch.google.com.
-*.google.vu	IN CNAME	forcesafesearch.google.com.
-google.ws	IN CNAME	forcesafesearch.google.com.
-*.google.ws	IN CNAME	forcesafesearch.google.com.
-google.rs	IN CNAME	forcesafesearch.google.com.
-*.google.rs	IN CNAME	forcesafesearch.google.com.
-google.co.za	IN CNAME	forcesafesearch.google.com.
-*.google.co.za	IN CNAME	forcesafesearch.google.com.
-google.co.zm	IN CNAME	forcesafesearch.google.com.
-*.google.co.zm	IN CNAME	forcesafesearch.google.com.
-google.co.zw	IN CNAME	forcesafesearch.google.com.
-*.google.co.zw	IN CNAME	forcesafesearch.google.com.
-google.cat	IN CNAME	forcesafesearch.google.com.
-*.google.cat	IN CNAME	forcesafesearch.google.com.
+www.youtube.com.rpz.                  10800 IN CNAME	restrictmoderate.youtube.com.
+m.youtube.com.rpz.                    10800 IN CNAME	restrictmoderate.youtube.com.
+youtubei.googleapis.com.rpz.          10800 IN CNAME	restrictmoderate.youtube.com.
+youtube.googleapis.com.rpz.           10800 IN CNAME	restrictmoderate.youtube.com.
+www.youtube-nocookie.com.rpz.         10800 IN CNAME	restrictmoderate.youtube.com.
+
+google.ad.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.ae.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.af.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.ag.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.ai.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.al.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.am.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.co.ao.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.ar.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.as.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.at.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.au.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.az.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.ba.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.bd.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.be.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.bf.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.bg.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.bh.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.bi.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.bj.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.bn.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.bo.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.br.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.bs.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.bt.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.co.bw.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.by.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.bz.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.ca.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.cat.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.cd.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.cf.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.cg.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.ch.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.ci.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.co.ck.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.cl.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.cm.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.cn.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.co.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.co.cr.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.cu.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.cv.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.cy.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.cz.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.de.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.dj.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.dk.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.dm.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.do.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.dz.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.ec.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.ee.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.eg.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.es.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.et.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.fi.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.fj.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.fm.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.fr.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.ga.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.ge.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.gg.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.gh.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.gi.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.gl.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.gm.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.gp.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.gr.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.gt.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.gy.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.hk.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.hn.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.hr.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.ht.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.hu.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.co.id.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.ie.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.co.il.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.im.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.co.in.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.iq.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.is.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.it.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.je.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.jm.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.jo.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.co.jp.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.co.ke.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.kg.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.kh.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.ki.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.co.kr.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.kw.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.kz.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.la.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.lb.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.li.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.lk.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.co.ls.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.lt.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.lu.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.lv.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.ly.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.co.ma.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.md.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.me.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.mg.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.mk.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.ml.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.mm.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.mn.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.ms.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.mt.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.mu.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.mv.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.mw.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.mx.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.my.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.co.mz.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.na.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.ne.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.nf.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.ng.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.ni.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.nl.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.no.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.np.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.nr.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.nu.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.co.nz.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.om.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.pa.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.pe.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.pg.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.ph.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.pk.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.pl.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.pn.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.pr.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.ps.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.pt.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.py.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.qa.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.ro.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.rs.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.ru.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.rw.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.sa.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.sb.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.sc.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.se.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.sg.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.sh.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.si.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.sk.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.sl.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.sm.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.sn.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.so.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.sr.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.st.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.sv.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.td.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.tg.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.co.th.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.tj.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.tk.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.tl.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.tm.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.tn.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.to.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.tr.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.tt.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.com.tw.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.co.tz.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.ua.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.co.ug.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.co.uk.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.uy.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.co.uz.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.vc.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.co.ve.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.vg.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.co.vi.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.com.vn.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.vu.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.ws.rpz.			      10800 IN CNAME	forcesafesearch.google.com.
+google.co.za.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.co.zm.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
+google.co.zw.rpz.		      10800 IN CNAME	forcesafesearch.google.com.
